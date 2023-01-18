@@ -7,4 +7,5 @@
 .Rhistory
 */.Rhistory
 */.DS_Store
-results/.DS_Store
+data/kraken/*
+data/raw/*
