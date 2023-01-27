@@ -1,0 +1,10 @@
+  8.95	132	132	U	0	unclassified
+ 91.05	1343	0	R	1	root
+ 91.05	1343	0	R1	131567	  cellular organisms
+ 91.05	1343	0	D	2	    Bacteria
+ 91.05	1343	0	P	1224	      Pseudomonadota
+ 91.05	1343	0	C	1236	        Gammaproteobacteria
+ 91.05	1343	0	O	91347	          Enterobacterales
+ 91.05	1343	0	F	543	            Enterobacteriaceae
+ 91.05	1343	0	G	561	              Escherichia
+ 91.05	1343	1343	S	562	                Escherichia coli
