@@ -1,10 +1,6 @@
 .DS_Store
 .ipynb_checkpoints
 .vscode
-.Rhistory
 .editorconfig
 */.Rhistory
-.Rhistory
-*/.Rhistory
 */.DS_Store
-data/raw/*
