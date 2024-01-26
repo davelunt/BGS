@@ -1,0 +1,10 @@
+TIGD6-heart
+EFCAB7-heart
+LRRC59-heart
+KLHL26-heart
+PFAS-lung
+ANAPC2-lung
+HSPD1-heart
+NBN-lung
+PSPH-heart
+AANAT-heart
