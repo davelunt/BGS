@@ -1,0 +1,49 @@
+BEWARE of screwed up single quotes
+
+
+`sed "s/$/-heart/" list3.txt > heartlist.txt`
+Created two lists of gene names
+They have some different frequencies of a few genes
+Appended -lung or -heart to all gene names
+`sed "s/$/-heart/" heart_gene_list.txt > heartlist.txt`
+`sed “s/$/-lung/" lung_gene_list.txt > lunglist.txt`
+
+Concatenate these
+`cat *list.txt > allgenes.txt`
+Too many files named the same! Instead
+`cat heartlist.txt > allgenelist.txt`
+`cat lunglist.txt >> allgenelist.txt`
+Seems to have worked
+
+Randomise allgenelist.txt
+`shuf allgenelist.txt -o generandomorder.txt`
+Test it
+`shuf list3.txt -o list3randomorder.txt`
+Worked and I created generandomorder.txt which looks OK
+
+genelist.txt is the new random list and testlist.txt is the test with small numbers
+
+`grep -e '-lung' testlist.txt > lungtest.txt`
+Worked, though not sure why I need the -e option to find a pattern
+
+`grep -e ‘-lung’ genelist.txt > lunglist.txt`
+
+-----------------------------
+NOW INTO ATOM...
+
+grep -e '-lung' genelist.txt > lunglist.txt
+grep -e '-heart' genelist.txt > heartlist.txt
+
+we can get a count of unique names by using uniq -c
+but we have to sort first
+
+sort heartlist.txt | uniq -c > heartgenes_uniqsorted.txt
+OK but why the left whitespace?
+
+sort heartlist.txt | uniq -c | sort -rn > heartlistcount.txt
+sort lunglist.txt | uniq -c | sort -rn > lunglistcount.txt
+
+head -5 lunglistcount.txt
+head -5 heartlistcount.txt
+
+works!
