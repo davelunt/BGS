@@ -2,6 +2,7 @@ HNRNPH3-heart
 RPH3AL-heart
 POLR3E-heart
 TIGD6-heart
+flunge68-heart
 EFCAB7-heart
 LRRC59-heart
 KLHL26-heart
@@ -40,7 +41,6 @@ S100A16-lung
 EFCAB7-lung
 CAP2-lung
 PRKCSH-heart
-flunge68-heart
 MAF1-lung
 DNAJA1-heart
 CCT3-heart
@@ -959,7 +959,7 @@ GOLGA3-lung
 SPPL2B-lung
 TMEM259-heart
 NMNAT1-lung
-TIMM21-heart
+TIMM21-Heart
 CYP24A1-lung
 CDC73-lung
 TPD52-lung
