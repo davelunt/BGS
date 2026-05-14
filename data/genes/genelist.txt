@@ -40,6 +40,7 @@ S100A16-lung
 EFCAB7-lung
 CAP2-lung
 PRKCSH-heart
+flunge68-heart
 MAF1-lung
 DNAJA1-heart
 CCT3-heart
